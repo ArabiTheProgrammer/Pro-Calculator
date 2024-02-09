@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #e0e3eb;
+    background: #73798a;
 }
 
 .container{
@@ -18,8 +18,8 @@ body{
     max-width: 300px;
     width: 100%;
     border-radius: 12px;
-    padding: 10px 20px 20px;
-    background: #fff;
+    padding: 30px 20px 20px;
+    background: #1e1e1e;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -31,6 +31,8 @@ body{
     text-align: right;
     margin-bottom: 10px;
     font-size: 25px;
+    background: #585555;
+    color: whitesmoke;
 }
 
 .buttons{
@@ -39,12 +41,13 @@ body{
     grid-template-columns: repeat(4, 1fr);
 }
 
-.buttons button{
+.buttons .button{
     padding: 12px 10px;
-    border-radius: 6px;
+    border-radius: 50%;
     border: none;
     font-size: 20px;
-    background-color: #eee;
+    color: white;
+    background-color: #504e4e52;
 }
 
 .buttons button:active{
@@ -52,5 +55,11 @@ body{
 }
 
 .operator{
-    color: #2f9fff;
+    color: white;
+    padding: 12px 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    background-color: #e2780f;
+    border-radius: 50%;
 }
